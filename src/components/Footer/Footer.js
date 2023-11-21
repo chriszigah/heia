@@ -12,32 +12,35 @@ const Footer = () => {
               <ul className={classes.footerLinks}>
                 <li>
                   <a href="/">
-                    <span class="material-symbols-rounded"> house </span> 86 Nii
-                    Sai Wulu Rd - East Legon
+                    <span className="material-symbols-rounded"> house </span> 86
+                    Nii Sai Wulu Rd - East Legon
                   </a>
                 </li>
                 <li>
                   <a href="/">
-                    <span class="material-symbols-rounded"> globe </span> Accra
-                    - Ghana
+                    <span className="material-symbols-rounded"> globe </span>{" "}
+                    Accra - Ghana
                   </a>
                 </li>
                 <li>
                   <a href="/">
-                    <span class="material-symbols-rounded"> deskphone </span>{" "}
+                    <span className="material-symbols-rounded">
+                      {" "}
+                      deskphone{" "}
+                    </span>{" "}
                     Telphone: 030413379
                   </a>
                 </li>
 
                 <li>
                   <a href="/">
-                    <span class="material-symbols-rounded"> phone </span>{" "}
+                    <span className="material-symbols-rounded"> phone </span>{" "}
                     Mobile: 0246 242 984 / 0249 819 724
                   </a>
                 </li>
                 <li>
                   <a href="/">
-                    <span class="material-symbols-rounded"> email </span>{" "}
+                    <span className="material-symbols-rounded"> email </span>{" "}
                     info@heia.com
                   </a>
                 </li>
@@ -83,7 +86,7 @@ const Footer = () => {
           <hr />
         </div>
       </footer>
-      <div class={classes.footerCopyright}>
+      <div className={classes.footerCopyright}>
         Built and Maintained by{" "}
         <a href="http://elicanschool.com">ELICAN SCHOOL - ECODERS </a>
         powered by <a href="https://ghana.edify.org/">EDIFY.</a>

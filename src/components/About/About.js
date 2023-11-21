@@ -5,15 +5,15 @@ import classes from "./style.module.css";
 const About = () => {
   return (
     <>
-      <div id="about" class={classes.aboutSection}>
-        <div class={classes.aboutInfo}>
-          <div class={classes.aboutInfoWrapper}>
-            <div class={classes.aboutInfoColumn}>
-              <div class={classes.aboutImg}>
+      <div id="about" className={classes.aboutSection}>
+        <div className={classes.aboutInfo}>
+          <div className={classes.aboutInfoWrapper}>
+            <div className={classes.aboutInfoColumn}>
+              <div className={classes.aboutImg}>
                 <img src={heiabanner} alt="About" width="100%" />
               </div>
             </div>
-            <div class={classes.aboutInfoColumn}>
+            <div className={classes.aboutInfoColumn}>
               <h3>About HEIA</h3>
               <p>
                 High End International Academy had a successful 22-year history

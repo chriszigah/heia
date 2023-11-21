@@ -29,6 +29,7 @@ if ("production" === process.env.NODE_ENV) {
     new InjectManifest({
       swSrc: "./src/src-sw.js",
       swDest: "sw.js",
+      maximumFileSizeToCacheInBytes: 52428800,
     })
   );
 }
@@ -36,6 +37,11 @@ if ("production" === process.env.NODE_ENV) {
 module.exports = {
   context: __dirname,
   entry: "./src/index.js",
+  performance: {
+    hints: false,
+    maxEntrypointSize: 512000,
+    maxAssetSize: 512000,
+  },
   output: {
     path: path.resolve(__dirname, "dist"),
     filename: "main.js",
